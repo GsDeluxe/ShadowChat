@@ -1,0 +1,99 @@
+* {
+    transition: background 500ms in_out_cubic, color 500ms in_out_cubic;
+}
+
+Footer {
+    background: rgb(136, 23, 212);
+    color: $text;
+    dock: bottom;
+    height: 1;
+}
+
+Footer > .footer--highlight {
+    background: rgb(99, 17, 154);
+}
+
+Footer > .footer--highlight-key {
+    background: rgb(83, 14, 130);
+    text-style: bold;
+}
+
+Footer > .footer--key {
+    text-style: bold;
+    background: rgb(99, 17, 154);
+}
+
+ServerConsole {
+    layout: vertical;
+    background: $boost;
+    align: center middle;
+    height: 100%;
+    width: 100%;
+}
+
+ServerConsole #chat_output {
+    height: 85%;
+    margin: 1;
+    border: tall rgb(136, 23, 212);
+}
+
+ServerConsole #chat_input {
+    margin: 1;
+    border: tall rgb(136, 23, 212);
+}
+
+ServerInfo {
+    background: $boost;
+    align: center middle;
+    height: 100%;
+    width: 100%;
+}
+
+ServerInfo #start_label {
+    text-align: center;
+}
+
+ServerInfo #port_input {
+    background: $boost;
+    margin: 1;
+    border: tall rgb(136, 23, 212);
+    width: 100%;
+}
+
+ServerInfo #host_input {
+    background: $boost;
+    margin: 1;
+    border: tall rgb(136, 23, 212);
+    width: 100%;
+}
+
+ServerInfo #start_button {
+    background: rgb(136, 23, 212);
+    border: tall rgb(147, 56, 208);
+    margin: 1;
+    width: 100%;
+}
+
+YesNo {
+    layout: grid;
+    grid-size: 2 2;                
+    align: center bottom;
+}
+
+YesNo > Label {
+    margin: 1;       
+    text-align: center;
+    column-span: 2;    
+    width: 1fr;
+}
+
+YesNo Button {
+    margin: 2; 
+    width: 1fr;
+    background: rgb(136, 23, 212);
+    border: tall rgb(147, 56, 208);
+}
+
+LoadingIndicator {
+    color: rgb(136, 23, 212);
+}
