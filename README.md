@@ -23,7 +23,7 @@ python client.py
 
 ### TODO
 
-- [ ] Add Server TUI
+- [x] Add Server TUI
 - [ ] Add Server Commands (msg, kick)
 - [ ] Add Builder
 - [ ] Make Clean Exit Functions
